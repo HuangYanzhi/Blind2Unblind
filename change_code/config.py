@@ -15,8 +15,10 @@ parser.add_argument('--gpu_devices', default='0', type=str)
 parser.add_argument('--parallel', action='store_true')
 parser.add_argument('--n_feature', type=int, default=48)
 parser.add_argument('--n_channel', type=int, default=3)
+
 parser.add_argument('--lr', type=float, default=3e-4)
 parser.add_argument('--w_decay', type=float, default=1e-8)
+
 parser.add_argument('--gamma', type=float, default=0.5)
 parser.add_argument('--n_epoch', type=int, default=100)
 parser.add_argument('--n_snapshot', type=int, default=1)
